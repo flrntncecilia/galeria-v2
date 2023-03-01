@@ -1,5 +1,7 @@
 let thumbnails = document.getElementsByClassName('thumbnail')
 
+let activeImages = document.getElementsByClassName('active')
+
 for (var i=0; i < thumbnails.length; i++){
     
     thumbnails[i].addEventListener('mouseover', function(){
